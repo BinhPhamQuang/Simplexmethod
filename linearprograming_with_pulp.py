@@ -3,8 +3,9 @@ import numpy as np
 import ast
 
 print("-----------------------------------------------------------")
-print("\nNote:Format string is matrix.Solve with minimize problem.")
-objective=input('objective=')
+print("\nNote:Format string is matrix and solve the problem with MINIMIZE.\n")
+print("-----------------------------------------------------------")
+objective=input('objective(minimize)=')
 matrixList=ast.literal_eval(objective);
 obj=np.array(matrixList).reshape(1,len(matrixList))
 subject=input('Subject to(<=)=')
