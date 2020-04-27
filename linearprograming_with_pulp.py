@@ -23,7 +23,7 @@ if(1==1):
     name=[]
     for i in obj[0,:]:
         index+=1
-        name.append(f"X_{index}")
+        name.append(f"X{index}")
     
     variable=[]
     for temp in name:
